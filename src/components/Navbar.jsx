@@ -72,6 +72,6 @@ export default function Navbar({ navOpen }) {
   );
 }
 
-Navbar.PropTypes = {
+Navbar.propTypes = {
   navOpen: PropTypes.bool.isRequired,
 };
