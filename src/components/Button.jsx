@@ -21,7 +21,7 @@ export const ButtonPrimary = ({
             className="material-symbols-rounded"
             aria-hidden="true"
           >
-            home
+            {icon}
           </span>
         ) : undefined}
       </a>

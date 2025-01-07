@@ -1,6 +1,16 @@
-import "./App.css";
+
+
+
+
+
+
+
+
+
+
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { Hero } from "./components/Hero";
 import Review from "./components/Review";
@@ -13,12 +23,13 @@ function App() {
       <Header />{" "}
       <main>
         <Hero />
-        <About/>
-        <Skill/>
-        <Work/>
-        <Review/>
-        <Contact/>
+        <About />
+        <Skill />
+        <Work />
+        <Review />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }
