@@ -1,13 +1,6 @@
+import { ReactLenis,  } from "lenis/react";
 
-
-
-
-
-
-
-
-
-
+/*  Components*/
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -19,18 +12,18 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <>
-      <Header />{" "}
-      <main>
-        <Hero />
-        <About />
-        <Skill />
-        <Work />
-        <Review />
-        <Contact />
-      </main>
-      <Footer />
-    </>
+      <ReactLenis root>
+        <Header />{" "}
+        <main>
+          <Hero />
+          <About />
+          <Skill />
+          <Work />
+          <Review />
+          <Contact />
+        </main>
+        <Footer />{" "}
+      </ReactLenis>
   );
 }
 
