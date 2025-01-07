@@ -5,13 +5,11 @@ ratings.fill({
   icon: "star",
   style: { fontVariationSettings: '"FILL" 1, "wght" 400, "GRAD" 0' },
 });
-console.log(ratings);
 const ReviewCard = ({ content, imgSrc, name, company }) => {
   return (
     <div className=" bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
       <div className="flex items-center gap-1 mb-3 ">
         {ratings.map(({ icon, style }, key) => (
-          <>
             <span
               className="material-symbols-rounded text-yellow-300 text-[18px]"
               key={key}
@@ -19,7 +17,6 @@ const ReviewCard = ({ content, imgSrc, name, company }) => {
             >
               {icon}
             </span>
-          </>
         ))}
       </div>
       <p className="text-zinc-400 mb-8">{content}</p>
