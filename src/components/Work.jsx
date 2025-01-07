@@ -46,7 +46,7 @@ const Work = () => {
         className="section"
         id="work"
       >
-        <div className="conatiner">
+        <div className="container">
           <h2 className="headline-2 mb-8">
             My portfolio highlights
           </h2>
