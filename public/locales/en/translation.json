@@ -1,0 +1,54 @@
+{
+  "navItems": [
+    {
+      "label": "Home",
+      "link": "#home",
+      "className": "nav-link active"
+    },
+    {
+      "label": "About",
+      "link": "#about",
+      "className": "nav-link"
+    },
+    {
+      "label": "Work",
+      "link": "#work",
+      "className": "nav-link"
+    },
+    {
+      "label": "Reviews",
+      "link": "#reviews",
+      "className": "nav-link"
+    },
+    {
+      "label": "Contact",
+      "link": "#contact",
+      "className": "nav-link md:hidden"
+    }
+  ],
+  "contact": "Contact me",
+  "footerIntro": "Let's work together todayy!",
+  "start": "Start project",
+  "sitemap": [
+    {
+      "label": "Home",
+      "href": "#home"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Work",
+      "href": "#work"
+    },
+    {
+      "label": "Reviews",
+      "href": "#reviews"
+    },
+    {
+      "label": "Contact me",
+      "href": "#contact"
+    }
+  ]
+}

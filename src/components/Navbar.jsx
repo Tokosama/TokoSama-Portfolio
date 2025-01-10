@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar({ navOpen }) {
   const lastActiveLink = useRef();
@@ -20,45 +21,21 @@ export default function Navbar({ navOpen }) {
     activeBox.current.style.width = event.target.offsetWidth + "px";
     activeBox.current.style.height = event.target.offsetHeight + "px";
   };
-  const navItems = [
-    {
-      label: "Home",
-      link: "#home",
-      className: "nav-link active",
-      ref: lastActiveLink,
-    },
-    {
-      label: "About",
-      link: "#about",
-      className: "nav-link",
-    },
-    {
-      label: "Work",
-      link: "#work",
-      className: "nav-link",
-    },
-    {
-      label: "Reviews",
-      link: "#reviews",
-      className: "nav-link",
-    },
-    {
-      label: "Contact",
-      link: "#contact",
-      className: "nav-link md:hidden",
-    },
-  ];
 
+
+const {t} = useTranslation();
+
+  const navItems = t("navItems")
   useEffect(initActiveBox, []);
   window.addEventListener('resize', initActiveBox);
   return (
     <nav className={"navbar " + (navOpen ? "active" : "")}>
-      {navItems.map(({ label, link, className, ref }, key) => (
+      {navItems.map(({ label, link, className }, key) => (
         <a
           href={link}
           key={key}
-          ref={ref}
-          className={className}
+          ref={key ===0? lastActiveLink : null}
+          className={className + " w-24 text-center "}
           onClick={activeCurrentLink}
         >
           {label}

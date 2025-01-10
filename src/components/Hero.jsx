@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import { ButtonOutline, ButtonPrimary } from "./Button";
 
 export const Hero = () => {
+
+  const {t} = useTranslation(['home'])
   return (
     <>
       <section
@@ -23,22 +26,22 @@ export const Hero = () => {
                 <span className=" relative w-2 h-2 rounded-full bg-emerald-400">
                   <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
                 </span>
-                Available for work
+                {t("greeting")}
               </div>
             </div>
             <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10 ">
-              Building Scalable Modern Websites for the Future
+              {t("intro")}
             </h2>
             <div className="flex items-center gap-3  ">
               <ButtonPrimary
-                label="Donwload Cv"
+                label={t("cv")}
                 icon="download"
               />{" "}
 
 
               <ButtonOutline
               href={"#about"}
-              label={"Scroll down"} 
+              label={t("scroll")}
               icon={"arrow_downward"}/>
             </div>
           </div>

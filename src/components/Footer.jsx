@@ -1,27 +1,5 @@
+import { useTranslation } from "react-i18next";
 import { ButtonPrimary } from "./Button";
-
-const sitemap = [
-  {
-    label: "Home",
-    href: "#home",
-  },
-  {
-    label: "About",
-    href: "#about",
-  },
-  {
-    label: "Work",
-    href: "#work",
-  },
-  {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
-    label: "Contact me",
-    href: "#contact",
-  },
-];
 
 const socials = [
   {
@@ -47,16 +25,22 @@ const socials = [
 ];
 
 const Footer = () => {
+  const {t} = useTranslation();
+
+  
+const sitemap = t("sitemap")
+
+  
   return (
     <>
       <footer className="section">
         <div className="container">
           <div className="lg:grid lg:grid-cols-2 ">
             <div className="mb-10">
-              <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up ">Let&apos;s work together today!</h2>
+              <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up ">{t("footerIntro")}</h2>
               <ButtonPrimary
                 href="mailto:codewithsadee@gmail.com"
-                label="Start project"
+                label={t("start")}
                 icon="chevron_right"
                 classes={"reveal-up"}
               />

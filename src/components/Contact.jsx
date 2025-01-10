@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 const socialLinks = [
   {
     href: "https://www.github.com/codewithsadee-org",
@@ -73,6 +75,7 @@ const socialLinks = [
   },
 ];
 const Contact = () => {
+  const { t } = useTranslation(["contact"]);
   return (
     <>
       <section
@@ -81,11 +84,10 @@ const Contact = () => {
       >
         <div className="container lg:grid lg:grid-cols-2 lg:items-stretch ">
           <div className="mb-12 lg:mb-0 lg:flex lg:flex-col  ">
-            <h2 className="headline-2 lg:max-w-[12ch] reveal-up">Contact me for collaboration</h2>
+            <h2 className="headline-2 lg:max-w-[12ch] reveal-up">{t("contact")}</h2>
 
             <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up ">
-              Reach out today to discuss your project needs and start
-              collaborating on something amazing!
+            {t("contactIntro")}
             </p>
             <div className="flex items-center gap-2 mt-auto ">
               {socialLinks.map(({ href, icon }, key) => (
@@ -153,7 +155,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 id="message"
-                placeholder="Hi!"
+                placeholder={t("message")}
                 required
                 className="text-field resize-y min-h-32 max-h-80 reveal-up"
               ></textarea>
@@ -163,7 +165,7 @@ const Contact = () => {
               type="submit"
               className="btn btn-primary [&]:max-w-full w-full justify-center  "
             >
-              Submit
+              {t("button")}
             </button>
           </form>
         </div>
