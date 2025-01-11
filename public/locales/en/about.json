@@ -1,17 +1,17 @@
 {
-  "profil": "Welcome! I'm Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.",
+  "profil": "Hello I am Sabi, passionate about web and mobile development, with skills in full-stack development. I design innovative and functional solutions by leveraging front-end and back-end technologies. Combining creativity and technical expertise, I aim to contribute to ambitious projects while enhancing my skills and professional experience.",
   "aboutItems": [
     {
       "label": "Project done",
-      "number": 45
+      "number": 3
     },
     {
       "label": "Years of experience",
-      "number": 10
+      "number": 1
     }
   ],
   "tools": "Essential Tools I use",
-  "toolsInto": "Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.",
+  "toolsIntro": "Discover the powerful tools and technologies I use to create high-performing websites & applications.",
    "skillItem": [
     {
       "imgSrc": "/images/figma.svg",

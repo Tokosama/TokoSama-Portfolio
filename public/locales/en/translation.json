@@ -27,8 +27,10 @@
     }
   ],
   "contact": "Contact me",
-  "footerIntro": "Let's work together todayy!",
+  "footerIntro": "Let's work together today!",
   "start": "Start project",
+  "navig":"SiteMap",
+
   "sitemap": [
     {
       "label": "Home",

@@ -113,7 +113,7 @@ const Contact = () => {
                   htmlFor="name"
                   className="label reveal-up"
                 >
-                  Name
+                  {t("name")}
                 </label>
                 <input
                   type="text"
@@ -121,7 +121,7 @@ const Contact = () => {
                   id="name"
                   autoComplete="name"
                   required
-                  placeholder="Henry clark"
+                  placeholder="TokoSama"
                   className="text-field"
                 />
               </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                   id="email"
                   autoComplete="email"
                   required
-                  placeholder="henry@example.com"
+                  placeholder="tokosama@example.com"
                   className="text-field reveal-up"
                 />
               </div>
@@ -165,7 +165,7 @@ const Contact = () => {
               type="submit"
               className="btn btn-primary [&]:max-w-full w-full justify-center  "
             >
-              {t("button")}
+              {t("submit")}
             </button>
           </form>
         </div>

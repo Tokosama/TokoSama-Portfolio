@@ -48,7 +48,7 @@ const sitemap = t("sitemap")
 
             <div className=" grid grid-cols-2 gap-4 lg:pl-20 ">
               <div>
-                <p className="mb-2 reveal-up">SiteMap</p>
+                <p className="mb-2 reveal-up">{t("navig")}</p>
                 <ul>
                   {sitemap.map(({ label, href }, key) => (
                     <li key={key}>
@@ -93,8 +93,8 @@ const sitemap = t("sitemap")
               />
             </a>
             <p className="text-zinc-500 text-sm reveal-up">
-              &copy; 2024
-              <span>codewithsad</span>
+              &copy; 2025
+              <span>TokoSama</span>
             </p>
           </div>
         </div>

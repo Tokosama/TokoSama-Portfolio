@@ -1,7 +1,7 @@
 {
     "navItems": [
       {
-        "label": "Acceuil",
+        "label": "Accueil",
         "link": "#home",
         "className": "nav-link active"
       },
@@ -27,27 +27,28 @@
       }
     ],
     "contact":"Contactez-moi",
-    "footerIntro": "Let's work together todayy!",
-    "start": "Start project",
+    "footerIntro": "Travaillons Ensemble!",
+    "start": "Débuter un projet",
+    "navig":"Naviguer",
     "sitemap": [
       {
-        "label": "Homeeee",
+        "label": "Accueil",
         "href": "#home"
       },
       {
-        "label": "About",
+        "label": "A Propos",
         "href": "#about"
       },
       {
-        "label": "Work",
+        "label": "Travail",
         "href": "#work"
       },
       {
-        "label": "Reviews",
+        "label": "Aperçu",
         "href": "#reviews"
       },
       {
-        "label": "Contact me",
+        "label": "Contactez me",
         "href": "#contact"
       }
     ]

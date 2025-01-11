@@ -1,17 +1,17 @@
 {
-  "profil": "Bienvenuuue ",
+  "profil": "Bienvenue. Je suis Sabi, passionné par le développement web et mobile, avec des compétences en développement full-stack. Je conçois des solutions innovantes et fonctionnelles en tirant parti des technologies front-end et back-end. En alliant créativité et expertise technique, je souhaite contribuer à des projets ambitieux tout en renforçant mes compétences et mon expérience professionnelle.",
   "aboutItems" : [
     {
-      "label": "Projet Réqlisé",
-      "number": 45
+      "label": "Projet Réalisé",
+      "number": 3
     },
     {
       "label": "Années d'expérience",
-      "number": 10
+      "number": 1
     }
   ],
-  "tools": "Outils Principaux ",
-  "toolsIntro": "Decouvrez",
+  "tools": "Mes outils",
+  "toolsIntro": "Découvrez les outils et technologies puissants que j'utilise pour créer des sites web et des applications performants.",
    "skillItem": [
     {
       "imgSrc": "/images/figma.svg",
