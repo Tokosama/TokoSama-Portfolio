@@ -14,15 +14,26 @@
   "toolsIntro": "Découvrez les outils et technologies puissants que j'utilise pour créer des sites web et des applications performants.",
    "skillItem": [
     {
-      "imgSrc": "/images/figma.svg",
-      "label": "Figma",
-      "desc": "Design tool"
+      "imgSrc": "/images/react.svg",
+      "label": "React",
+      "desc": "Framework"
     },
     {
-      "imgSrc": "/images/css3.svg",
-      "label": "CSS",
+      "imgSrc": "/images/next-js.svg",
+      "label": "Next",
+      "desc": "Framework"
+    },
+    {
+      "imgSrc": "/images/tailwindcss.svg",
+      "label": "TailwindCSS",
       "desc": "User Interface"
     },
+    {
+      "imgSrc": "/images/figma.svg",
+      "label": "Figma",
+      "desc": "Outil de design"
+    },
+
     {
       "imgSrc": "/images/javascript.svg",
       "label": "JavaScript",
@@ -31,7 +42,7 @@
     {
       "imgSrc": "/images/nodejs.svg",
       "label": "NodeJS",
-      "desc": "Web Server"
+      "desc": "Serveur Web"
     },
     {
       "imgSrc": "/images/expressjs.svg",
@@ -41,17 +52,20 @@
     {
       "imgSrc": "/images/mongodb.svg",
       "label": "MongoDB",
-      "desc": "Database"
+      "desc": "Base de donnée"
     },
+  
+    
     {
-      "imgSrc": "/images/react.svg",
-      "label": "React",
+      "imgSrc": "/images/prisma.svg",
+      "label": "Prisma",
+      "desc": "Outil de Bdd"
+    },
+   
+    {
+      "imgSrc": "/images/laravel.svg",
+      "label": "Laravel",
       "desc": "Framework"
-    },
-    {
-      "imgSrc": "/images/tailwindcss.svg",
-      "label": "TailwindCSS",
-      "desc": "User Interface"
     }
   ]
 }

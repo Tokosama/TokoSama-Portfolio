@@ -14,15 +14,26 @@
   "toolsIntro": "Discover the powerful tools and technologies I use to create high-performing websites & applications.",
    "skillItem": [
     {
-      "imgSrc": "/images/figma.svg",
-      "label": "Figma",
-      "desc": "Design tool"
+      "imgSrc": "/images/react.svg",
+      "label": "React",
+      "desc": "Framework"
     },
     {
-      "imgSrc": "/images/css3.svg",
-      "label": "CSS",
+      "imgSrc": "/images/next-js.svg",
+      "label": "Next",
+      "desc": "Framework"
+    },
+    {
+      "imgSrc": "/images/tailwindcss.svg",
+      "label": "TailwindCSS",
       "desc": "User Interface"
     },
+    {
+      "imgSrc": "/images/figma.svg",
+      "label": "Figma",
+      "desc": "Ux tool"
+    },
+
     {
       "imgSrc": "/images/javascript.svg",
       "label": "JavaScript",
@@ -43,15 +54,18 @@
       "label": "MongoDB",
       "desc": "Database"
     },
+  
+    
     {
-      "imgSrc": "/images/react.svg",
-      "label": "React",
-      "desc": "Framework"
+      "imgSrc": "/images/prisma.svg",
+      "label": "Prisma",
+      "desc": "Database Tool" 
     },
+   
     {
-      "imgSrc": "/images/tailwindcss.svg",
-      "label": "TailwindCSS",
-      "desc": "User Interface"
+      "imgSrc": "/images/laravel.svg",
+      "label": "Laravel",
+      "desc": "Framework"
     }
   ]
 }

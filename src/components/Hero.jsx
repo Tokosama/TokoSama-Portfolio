@@ -45,7 +45,7 @@ export const Hero = () => {
               icon={"arrow_downward"}/>
             </div>
           </div>
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-40 to-65% rounded-[60px] overflow-hidden">
               <img
                 src="/images/hero-banner.png"
@@ -55,7 +55,7 @@ export const Hero = () => {
                 className="w-full"
               />
             </figure>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
