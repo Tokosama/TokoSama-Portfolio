@@ -1,9 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { ButtonOutline, ButtonPrimary } from "./Button";
+import { ButtonOutline } from "./Button";
 
 export const Hero = () => {
-
-  const {t} = useTranslation(['home'])
+  const { t } = useTranslation(["home"]);
   return (
     <>
       <section
@@ -33,16 +32,26 @@ export const Hero = () => {
               {t("intro")}
             </h2>
             <div className="flex items-center gap-3  ">
-              <ButtonPrimary
-                label={t("cv")}
-                icon="download"
-              />{" "}
-
+              <a
+                className=" max-w-max  flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] h-11 bg-sky-400 text-zinc-950 hover:bg-sky-300 active:bg-sky-400
+}"
+                href="/TkCV.pdf"
+                target="/"
+              >
+                {t("cv")}
+                <span
+                  className="material-symbols-rounded"
+                  aria-hidden="true"
+                >
+                  download
+                </span>
+              </a>
 
               <ButtonOutline
-              href={"#about"}
-              label={t("scroll")}
-              icon={"arrow_downward"}/>
+                href={"#contact"}
+                label={t("scroll")}
+                icon={"arrow_downward"}
+              />
             </div>
           </div>
           {/* <div className="hidden lg:block">
