@@ -4,24 +4,13 @@ import { ButtonPrimary } from "./Button";
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/Tokosama",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/anouar-sabi-orou-toko-606072304/",
   },
-  {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
-  },
-  {
-    label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
-  },
-  {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
-  },
+  
 ];
 
 const Footer = () => {
