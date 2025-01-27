@@ -17,7 +17,7 @@
         "imgSrc": "./images/twitter.jpg",
         "title": "Twitter Clone",
         "tags": ["Next", "Tailwind", "MongoDb","Aws"],
-        "projectLink": "."
+        "projectLink": "https://twitter-clone-by-tokosama.vercel.app/"
       }
     ]
   }
