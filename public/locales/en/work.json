@@ -2,19 +2,19 @@
     "portfolio": "My portfolio highlights",
     "works" : [
         {
-          "imgSrc": "/images/ecom.jpg",
+          "imgSrc": "/images/screens/ecom.jpg",
           "title": "Tech Ecommerce App",
           "tags": ["Next", "Tailwind", "MongoDb","Aws"],
           "projectLink": "https://techstoretokosama.vercel.app/"
         },
         {
-          "imgSrc": "/images/insta.jpg",
+          "imgSrc": "/images/screens/ecom.png",
           "title": "Instagram Clone",
           "tags": ["Next", "Tailwind", "MongoDb","Prisma","Pinata"],
           "projectLink": "https://instagram-clone-by-tokosama.vercel.app/"
         },
         {
-          "imgSrc": "./images/twitter.jpg",
+          "imgSrc": "/images/screens/Twitter.jpg",
           "title": "Twitter Clone",
           "tags": ["Next", "Tailwind", "MongoDb","Aws"],
           "projectLink": "https://twitter-clone-by-tokosama.vercel.app/"

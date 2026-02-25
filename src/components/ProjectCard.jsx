@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 export const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
+  console.log(imgSrc)
   return (
     <>
       <div
@@ -9,7 +10,7 @@ export const ProjectCard = ({ imgSrc, title, tags, projectLink, classes }) => {
           classes
         }
       >
-        <figure className="img-box aspect-sqaure rounded-lg mb-4 ">
+        <figure className="img-box  rounded-lg mb-4 ">
           <img
             src={imgSrc}
             alt={title}
