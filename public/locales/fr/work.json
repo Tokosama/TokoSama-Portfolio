@@ -8,7 +8,7 @@
         "projectLink": "https://techstoretokosama.vercel.app/"
       },
       {
-        "imgSrc": "/images/screens/ecom.png",
+        "imgSrc": "/images/screens/Instagram.jpg",
         "title": "Instagram Clone",
         "tags": ["Next", "Tailwind", "MongoDb","Prisma","Pinata"],
         "projectLink": "https://instagram-clone-by-tokosama.vercel.app/"
