@@ -2,7 +2,7 @@
     "portfolio": "Les projets phares de mon portfolio",
     "works" : [
       {
-        "imgSrc": "/images/screens/ecom.jpg",
+        "imgSrc": "/images/screens/Tech.jpg",
         "title": "Tech Ecommerce App",
         "tags": ["Next", "Tailwind", "MongoDb","Aws"],
         "projectLink": "https://techstoretokosama.vercel.app/"

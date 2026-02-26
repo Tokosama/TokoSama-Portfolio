@@ -18,7 +18,7 @@ const Work = () => {
           >
             {t("portfolio")}{" "}
           </h2>
-          <div className="grid gap-x-4  gap-y-5 grid-cols-2">
+          <div className="grid gap-x-4  gap-y-5 xs:grid-cols-2">
             {works.map(({ imgSrc, title, tags, projectLink }, key) => (
               <ProjectCard
                 key={key}
