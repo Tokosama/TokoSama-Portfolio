@@ -4,10 +4,11 @@ import "./index.css";
 import "lenis/dist/lenis.css";
 import App from "./App.jsx";
 import "./i18n.js";
+import Spinner from "./components/spinner.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Suspense fallback="loading..." >
+    <Suspense fallback={<Spinner />}>
       <App />
     </Suspense>
-  </StrictMode>
+  </StrictMode>,
 );
