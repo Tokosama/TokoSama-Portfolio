@@ -1,13 +1,11 @@
 {
   "profil": "Hello I am Sabi, passionate about web and mobile development, with skills in full-stack development. I design innovative and functional solutions by leveraging front-end and back-end technologies. Combining creativity and technical expertise, I aim to contribute to ambitious projects while enhancing my skills and professional experience.",
+  
   "aboutItems": [
-    {
-      "label": "Project done",
-      "number": 3
-    },
+    
     {
       "label": "Years of experience",
-      "number": 1
+      "number": 2
     }
   ],
   "tools": "Essential Tools I use",
@@ -18,9 +16,20 @@
       "label": "React",
       "desc": "Framework"
     },
+
     {
       "imgSrc": "/images/next-js.svg",
       "label": "Next",
+      "desc": "Framework"
+    },
+     {
+      "imgSrc": "/images/reactnative.svg",
+      "label": "React Native",
+      "desc": "Framework"
+    },
+     {
+      "imgSrc": "/images/expo.svg",
+      "label": "Expo",
       "desc": "Framework"
     },
     {

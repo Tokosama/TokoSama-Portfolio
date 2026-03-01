@@ -82,7 +82,7 @@ const sitemap = t("sitemap")
               />
             </a>
             <p className="text-zinc-500 text-sm reveal-up">
-              &copy; 2025
+              &copy; 2026
               <span>TokoSama</span>
             </p>
           </div>

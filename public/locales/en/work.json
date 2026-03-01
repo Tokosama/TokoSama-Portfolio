@@ -1,24 +1,53 @@
 {
-    "portfolio": "My portfolio highlights",
-    "works" : [
-        {
-          "imgSrc": "/images/screens/Tech.jpg",
-          "title": "Tech Ecommerce App",
-          "tags": ["Next", "Tailwind", "MongoDb","Aws"],
-          "projectLink": "https://techstoretokosama.vercel.app/"
-        },
-        {
-          "imgSrc": "/images/screens/Instagram.jpg",
-          "title": "Instagram Clone",
-          "tags": ["Next", "Tailwind", "MongoDb","Prisma","Pinata"],
-          "projectLink": "https://instagram-clone-by-tokosama.vercel.app/"
-        },
-        {
-          "imgSrc": "/images/screens/Twitter.jpg",
-          "title": "Twitter Clone",
-          "tags": ["Next", "Tailwind", "MongoDb","Aws"],
-          "projectLink": "https://twitter-clone-by-tokosama.vercel.app/"
-        }
-      ]
-  }
-  
+  "portfolio": "My Realisations",
+  "works": [
+    {
+      "imgSrc": "/images/screens/Tech.jpg",
+      "title": "Tech Ecommerce App",
+      "tags": [
+        "/images/next-js.svg",
+        "/images/tailwindcss.svg",
+        "/images/mongodb.svg",
+        "/images/aws.svg"
+      ],
+      "projectLink": "https://techstoretokosama.vercel.app/"
+    },
+    {
+      "imgSrc": "/images/screens/Instagram.jpg",
+      "title": "Instagram Clone",
+      "tags": [
+        "/images/next-js.svg",
+        "/images/tailwindcss.svg",
+        "/images/mongodb.svg",
+        "/images/prisma.svg"
+      ],
+      "projectLink": "https://instagram-clone-by-tokosama.vercel.app/"
+    },
+    {
+      "imgSrc": "/images/screens/Twitter.jpg",
+      "title": "Twitter Clone",
+      "tags": [
+        "/images/next-js.svg",
+        "/images/tailwindcss.svg",
+        "/images/mongodb.svg",
+        "/images/aws.svg"
+      ],
+      "projectLink": "https://twitter-clone-by-tokosama.vercel.app/"
+    },
+    {
+      "imgSrc": "/images/screens/Chatko.jpg",
+      "title": "ChatKo",
+      "tags": [
+        "/images/react.svg",
+        "/images/nodejs.svg",
+        "/images/expressjs.svg",
+        
+        "/images/tailwindcss.svg",
+        "/images/mongodb.svg",
+        "/images/socket.svg",
+        "/images/cloudinary.svg"
+      ],
+      "projectLink": "#"
+    }
+  ]
+}

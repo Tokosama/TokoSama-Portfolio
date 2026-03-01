@@ -20,7 +20,7 @@ const socialLinks = [
     alt: "GitHub",
   },
   {
-    href: "https://www.linkedin.com/in/anouar-sabi-orou-toko-606072304/",
+    href: "https://www.linkedin.com/in/sabi-anouar-orou-toko-606072304/",
     icon: (
       <svg
         width="24"
@@ -38,6 +38,10 @@ const socialLinks = [
     alt: "LinkedIn",
   },
  
+
+
+
+  
 ];
 const Contact = () => {
   const { t } = useTranslation(["contact"]);
