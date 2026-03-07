@@ -24,6 +24,12 @@
         "title": "ChatKo",
         "tags": ["/images/react.svg", "/images/nodejs.svg", "/images/expressjs.svg","/images/tailwindcss.svg", "/images/mongodb.svg","/images/socket.svg","/images/cloudinary.svg"],
         "projectLink": "#"
+      },
+      {
+        "imgSrc": "/images/screens/BookStore.jpg",
+        "title": "Book Review Mobile App",
+        "tags": ["/images/reactnative.svg", "/images/expo.svg","/images/zustand.svg","/images/nodejs.svg", "/images/expressjs.svg", "/images/mongodb.svg","/images/cloudinary.svg"],
+        "projectLink": "#"
       }
     ]
   }
