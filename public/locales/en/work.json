@@ -8,7 +8,8 @@
         "/images/next-js.svg",
         "/images/tailwindcss.svg",
         "/images/mongodb.svg",
-        "/images/aws.svg"
+        "/images/aws.svg",
+        "/images/stripe.svg"
       ],
       "projectLink": "https://techstoretokosama.vercel.app/"
     },
